@@ -1,0 +1,3 @@
+php/config/db.conf.php
+php/config/mail.conf.php
+php/config/secure.conf.php
