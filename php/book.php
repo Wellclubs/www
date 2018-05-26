@@ -8,7 +8,7 @@
 <meta name="format-detection" content="telephone=no"/>
 <meta name="format-detection" content="address=no"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"/>
 <meta charset="utf-8" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <?php if (Base::useRobots()) { ?>
