@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond $1 !^(css/)
+   RewriteCond $1 !^(jss/)
+   RewriteCond $1 !^(pic/)
+   RewriteCond $1 !^(wc\.ico)$
+   RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
