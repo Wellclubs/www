@@ -212,6 +212,7 @@ class Base
  public static function execute()
  {
   //echo 'Comment out this line for regular mode<pre>';var_dump($GLOBALS);exit;
+  //echo 'Comment out this line for regular mode<pre>';var_dump($_SERVER);exit;
   //session_start();
   mb_internal_encoding("UTF-8");
   setlocale(LC_ALL, "ru_RU.UTF-8");
@@ -248,6 +249,8 @@ class Base
   if (count(self::$parts) > 0)
    self::$cmd = self::$parts[0];
 
+  header("Cache-Control: no-store, no-cache, must-revalidate");
+  header("Expires: " . date("r"));
   return self::$Page->showPage();
  }
 
