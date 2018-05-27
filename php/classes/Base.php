@@ -210,6 +210,7 @@ class Base
  }
 
  public static function execute()
+
  {
   //echo 'Comment out this line for regular mode<pre>';var_dump($GLOBALS);exit;
   //echo 'Comment out this line for regular mode<pre>';var_dump($_SERVER);exit;
